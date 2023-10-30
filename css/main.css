@@ -33,6 +33,8 @@
  * ------------------------------------------------------------------- 
  */
 @import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600|Cairo");
+@import url("fontawesome-all.min.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
@@ -865,7 +867,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 1em;
 	position: absolute;
 	font-size: 8rem;
-	font-family: Arial, Sans-Serif;
+	font-family: "poppins-medium", sans-serif;
 	color: #333;
 }
 .pull-quote:before {
@@ -1110,10 +1112,11 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	border: none;
+	font-family:"poppins-semibold", sans-serif ;
 	font: 0/0 a;
 	text-shadow: none;
 	font-size: large;
-	color: red;
+	color: #a2061c;
 	width: 192px;
 	height: 25px;
 	/* background: url("../images/logo.png") no-repeat center; */
